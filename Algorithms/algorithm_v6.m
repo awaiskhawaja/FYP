@@ -197,6 +197,7 @@ I_IBR_pf = conj((P_ref + 1j .* Q_ref).' ./ v0);
 [x, y] = pol2cart(deg2rad(matpower.pfResults.bus(fault_bus, 9)), matpower.pfResults.bus(fault_bus, 8));
 v_fault_bus = (x + 1j*y);
 I_RP = v_fault_bus / (Z_bus(fault_bus, fault_bus) + Z_f);
+I_f_G74 = I_RP;
 
 V = Z_bus * (I_inj_s + I_inj_c + I_inj_l); % Voltage caused by injected current
 I_f = V(fault_bus) / (Z_bus(fault_bus, fault_bus) + Z_f); % Fault current
