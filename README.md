@@ -9,6 +9,7 @@ Algorithms:
 * algorithm_v5 - Original iterative algorithm
 * algorithm_v6 - Newer version with G74 recommendations implemented
 * run_v7 - Final verson in a modular form that can be repeatedly called by another script with different inputs
+* G74_algorithm - An implementation of the non-iterative G74 method for comparison
 
 Case Files:
 * case39bus - Original IEEE 39-bus system included in MATPOWER library. Modified to also assemble admittance matrix and run powerflow.
