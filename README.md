@@ -19,3 +19,5 @@ Case Files:
 * case39bus_5 - Modified case39bus with low IBR penetration
 * case39bus_6 - Modified case39bus with high IBR penetration
 * case39bus_7 - Modified case39bus with medium IBR penetration
+* case57bus - IEEE 57-bus system
+* case57bus_2 - Modified case57bus with some SMs removed and some IBRs added
